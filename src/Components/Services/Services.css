@@ -1,0 +1,302 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #f0e3ce;
+}
+
+.service-page {
+    padding: 0;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding: 50px;
+    background-image: url('https://png.pngtree.com/background/20221225/original/pngtree-blue-musical-notes-background-picture-image_1986629.jpg');
+    text-align: center;
+    min-height: 70vh;
+    background-position: center;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: right;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: 35rem;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.explore-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 55rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.explore-btn1 {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.explore-btn1:hover {
+    transform: scale(1.1);
+}
+
+.explore-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Services Section */
+.services-section {
+    text-align: center;
+    padding: 50px;
+    min-height: 60vh;
+    background-color: #101010;
+}
+
+.services-section .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #f0e3ce;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Allows cards to move independently on the vertical axis */
+}
+
+
+.service-card {
+    background-color: #e1dddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.offset-card {
+    margin-top: 4rem;
+}
+
+/* Offerings Section */
+.offerings-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #1a1a1a;
+    color: #f0e3ce;
+}
+
+.offerings-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* Adjust space between image and text */
+    margin-top: 20px;
+    /* Space between heading and content */
+}
+
+.offerings-image {
+    max-width: 300px;
+    /* Adjust width as needed */
+    border-radius: 10px;
+}
+
+.offerings-text {
+    font-size: 1.2rem;
+    max-width: 600px;
+    /* Adjust max width as needed */
+    color: #ddd;
+
+    text-align: center
+}
+
+.offer-btn {
+    background-color: #e1dddd;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+    border-radius: 2rem;
+
+}
+
+.offer-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.reversed-offerings-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #222;
+    color: #f0e3ce;
+}
+
+.reversed-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* Space between text and image */
+    margin-top: 20px;
+    /* Space between heading and content */
+}
+
+.reversed-text {
+    font-size: 1.2rem;
+    max-width: 600px;
+    /* Adjust max width as needed */
+    color: #ddd;
+    text-align: left;
+    text-align: center
+}
+
+.reversed-image {
+    max-width: 300px;
+    /* Adjust width as needed */
+    border-radius: 10px;
+}
+
+.orange-line {
+    width: 100%;
+    /* Full width */
+    height: 4px;
+    /* Thickness of the line */
+    background-color: orange;
+    /* Line color */
+    margin-top: 40px;
+    /* Space above the line */
+    margin-bottom: 40px;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    /* Adjust as needed */
+    margin: 0 auto;
+    /* Center the slider */
+    overflow: hidden;
+    /* Hide overflow to prevent scroll bars */
+}
+
+.image-container {
+    position: relative;
+    margin-top: 40px;
+
+    width: 100%;
+    height: 500px;
+    /* Adjust height as needed */
+}
+
+.slide-image {
+    width: 400px;
+    /* Fixed width for all images */
+    height: 300px;
+    /* Fixed height for all images */
+    position: absolute;
+    /* Use absolute positioning */
+    border-radius: 8px;
+    /* Optional: for rounded corners */
+    transition: transform 0.3s ease;
+    /* Smooth transition for scaling */
+}
+
+.slide-image:nth-child(1) {
+    right: 40%;
+    /* Position second image slightly overlapping */
+    border-radius: 8px;
+    transform: translateY(-10px);
+    /* Move up slightly for diagonal effect */
+}
+
+
+.slide-image:nth-child(2) {
+    left: 50%;
+    /* Position first image on the left */
+    border-radius: 8px;
+    top: 30%;
+    transform: translateY(10px);
+    /* Move down slightly for diagonal effect */
+}
+
+.arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    /* Size of arrow */
+    cursor: pointer;
+    color: #fff;
+    /* Arrow color */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.left-arrow {
+    left: 110px;
+    /* Adjust for extreme left positioning */
+}
+
+.right-arrow {
+    right: 110px;
+    /* Adjust for extreme right positioning */
+}
+
+.slider-container:hover .arrow {
+    color: orange;
+    /* Change color on hover */
+}

@@ -1,0 +1,11 @@
+.gallery-bg{
+    background-image: url("../../Assets/Gallery/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-bg2{
+    background-image: url("../../Assets/Gallery/1 cropped.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
