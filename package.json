@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://prakeshkumar15633.github.io/keys-strings",
+  "homepage": "https://bangarunihanth.github.io/musician-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -12,7 +12,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
-    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.52.0",
@@ -47,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
